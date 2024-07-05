@@ -1,7 +1,7 @@
 export const siteOne = {
   id: 'so164652-c0ef-4991-b7cc-474cc0ea911',
   title: 'SiteOne Q1 2023',
-  audioUrl: `https://${process.env.BASE_URL}/so164652-c0ef-4991-b7cc-474cc0ea911.ogg`,
+  audioUrl: `https://${process.env.NEXT_PUBLIC_BASE_URL}/so164652-c0ef-4991-b7cc-474cc0ea911.ogg`,
   blocks: [
     {
       end: 15.64,

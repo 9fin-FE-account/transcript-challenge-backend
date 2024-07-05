@@ -1,7 +1,7 @@
 export const burgerKingFrance = {
   id: 'bk168068-93e8-4bb6-b762-dbc57d172111',
   title: 'Burger King France Q1 2023',
-  audioUrl: `https://${process.env.VERCEL_URL}/bk168068-93e8-4bb6-b762-dbc57d172111.ogg`,
+  audioUrl: `https://${process.env.BASE_URL}/bk168068-93e8-4bb6-b762-dbc57d172111.ogg`,
   blocks: [
     {
       end: 4.8,

@@ -31,7 +31,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   if (id === 'bk168068-93e8-4bb6-b762-dbc57d172111') data = burgerKingFrance;
   else if (id === 'so164652-c0ef-4991-b7cc-474cc0ea911') data = siteOne;
   else if (id === 'gg1aa17c-0a31-495c-8e9d-6179de3d3111') data = gogo;
-  else return res.status(400).send({ message: `${id} is not a valid transript id` });
+  else return res.status(400).send({ message: `${id} is not a valid transcript id` });
 
   return res.json(data);
 }
